@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+    <title> T4 Online Bank </title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<style>
+    #myPanelTitle1{
+        text-align:center;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-header .navbar-brand> .active> a:hover, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+        color: black;
+        background-color: #8EB9DF;
+    }
+    .navbar-default .navbar-nav > li > a{
+        color: white;
+    }
+    .navbar-default .navbar-brand{
+        color: white;
+    }
+    </style>
+    <body>
+        <nav class="navbar navbar-default" style="background-color:#428bca">
+            <div class="container-fluid" >
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><h4>Online Bank</h4></a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html"><h4>Personal</h4></a></li>
+                        <li><a href="business.html"><h4>Small Business</h4></a></li>
+                        <li><a href="commercial.html"><h4>Commercial</h4></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<h1> Welcome to your Online Bank :)</h1>
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#">Account</a></li>
+    <li><a href="transfer_between.html">Transfer</a></li>
+    <li><a href="bill_pay.html">Bill Pay</a></li>
+    <li><a href="account_setting.html">Account Setting</a></li>
+</ul>
+<ul class="nav nav-tabs">
+    <li><a href="account_summary.html">Account Summary</a></li>
+    <li class="active"><a href="account_activity.html">Account Activity</a></li>
+</ul>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <br>
+    <div class="col-sm-2" ><h4>Choose Account::</h4> </div>
+    <div class="col-sm-6" >
+        <div class="btn-group ">
+          <button type="button" class="btn btn-default">Saving XXXXXX2375</button>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <!-- Dropdown menu links -->
+            <li><a href="account_activity.html">Checking XXXXXX3627</a></li>
+            <li><a href="check2.html">Saving XXXXXX6456</a></li>
+        </ul>
+    </div>
+</div>
+
+</div>
+</div>
+
+<div class="container">
+    <div class="col-sm-4" ><h2>Activity Summary:</h2></div>
+    <div class="col-sm-4" ><a href="downloadActivity.html"><h3 class ="text-center">Download Activity</h3></a> </div>      
+    <table style="width:80%" class="table  table-hover   table-bordered">
+        <thead>
+
+        </thead>
+        <tbody>
+          <tr class="danger">
+            <td>Current Posted Balance</td>
+            <td>$5,327.00</td>
+        </tr>
+        <tr class="danger">
+            <td>Pending Withdrawals/ Debits</td>
+            <td>-$203.37</td>
+
+        </tr>
+        <tr class="danger">
+            <td>Pending Deposits/ Credits</td>
+            <td>$500.00</td>
+
+        </tr>
+        <tr class="danger">
+            <td><b>Available Balance</b></td>
+            <td><b>$5,327.00</b></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div class="container" >
+    <div class="panel panel-default" style="width:80%">
+      <!-- Default panel contents -->
+      <div class="panel-heading"><h4>Transactions</h4></div>
+
+
+<table  class="table  table-hover   table-bordered">
+        <thead>
+
+        <th>Date</th>
+        <th>Description</th>
+        <th>Withdrawals/Debits</th>
+      </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>02/23/15</td>
+            <td>PURCHASE Amazon.com ##########</td>
+            <td>$32.68</td>
+            </tr>
+        <tr>
+            
+            <td>02/23/15</td>
+            <td>PURCHASE 99 ##########</td>
+            <td>$62.68</td>
+            
+
+        </tr>
+        <tr>
+            <td>02/22/15</td>
+            <td>PURCHASE ALL NATURAL RAISINS ##########</td>
+            <td>$102.68</td>
+
+        </tr>
+        <tr>
+            <td>02/21/15</td>
+            <td>PURCHASE ZZZZZZZZ ##########</td>
+            <td>$2.68</td>
+
+        </tr>
+        <tr>
+            <td>02/20/15</td>
+            <td>PURCHASE AAAAAAAA ##########</td>
+            <td>$429.68</td>
+
+        </tr>
+        <tr>
+            <td>02/19/15</td>
+            <td>PURCHASE XXXXXXX ##########</td>
+            <td>$412.68</td>
+
+        </tr>
+        <tr>
+            <td>02/18/15</td>
+            <td>PURCHASE JJJJJJJJ ##########</td>
+            <td>$142.68</td>
+
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
